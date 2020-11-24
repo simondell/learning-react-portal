@@ -1,0 +1,33 @@
+.Consumer {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.Consumer aside,
+.Consumer header {
+  background-color: var(--color-furniture-bg);
+  color: var(--color-fg-light);
+}
+
+.Consumer aside {
+  flex-grow: 1;
+}
+
+.Consumer aside ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.Consumer aside li {
+  background-color: var(--color-feature-bg);
+  height: 64px;
+  margin-bottom: 20px;
+}

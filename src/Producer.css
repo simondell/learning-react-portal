@@ -1,0 +1,17 @@
+.Producer {
+  position: relative;
+  background-color: rgb(200, 200, 200);
+  color: var(--color-very-dark);
+  height: 450px;
+  width: 800px;
+}
+
+.Producer-portal {
+  background-color: var(--color-feature-bg);
+  color: var(--color-fg-light);
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 50%;
+  height: 78px;
+}
